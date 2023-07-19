@@ -1,0 +1,17 @@
+{% extends '_base.html'%}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/csslist.css' %}">
+<a href="{% url 'snack_create' %}" class="asnacks" >Add New Snack</a>
+<br><br>
+<ul class="ulsnacks">
+  {% for snack in object_list %}
+  <li class="lisnacks">
+    <a href="{% url 'snack_detail' snack.pk %}">{{ snack.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+
+{% endblock content %}

@@ -1,0 +1,54 @@
+body {
+    background-color: #ca7be6;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.uniForm {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d6aee7;
+    border: 1px solid #1da211;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 8px;
+    border: 1px solid #1da211;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 100px;
+    border: 1px solid #1da211;
+    border-radius: 5px;
+    background-color: #1da211;
+    color: #d2cbcb;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #54e147;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #1da211;
+    border-radius: 5px;
+    color: #333;
+}
+
+a:hover {
+    background-color: #54e147;
+}

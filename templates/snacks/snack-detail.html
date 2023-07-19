@@ -1,0 +1,29 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/cssdetails.css' %}">
+
+<h1>Details about: </h1>
+<table class="snack-table">
+  <tr>
+    <td class="table-heading">Name:</td>
+    <td>{{ snack.name }}</td>
+  </tr>
+  <tr>
+    <td class="table-heading">Purchaser:</td>
+    <td>{{ snack.purcheser.first_name }} {{ snack.purcheser.last_name }}</td>
+  </tr>
+  <tr>
+    <td class="table-heading">Description:</td>
+    <td>{{ snack.desc }}</td>
+  </tr>
+</table>
+<br>
+<a href="{% url 'snack_update' snack.pk %}"> Update snack</a>
+<br>
+<a href="{% url 'snack_delete' snack.pk %}"> Delete snack</a>
+<br>
+<a href="{% url 'snack_list'%}">Snacks List</a>
+
+{% endblock content %}
