@@ -1,0 +1,41 @@
+
+body {
+    background-color: #ca7be6;
+  }
+  
+  .asnacks {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #1da211;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .asnacks:hover {
+    background-color: #54e147;
+  }
+  
+  .ulsnacks {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lisnacks {
+    margin-bottom: 10px;
+  }
+  
+  .lisnacks a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #1da211;
+    border-radius: 5px;
+  }
+  
+  .lisnacks a:hover {
+    background-color: #54e147;
+  }
+  

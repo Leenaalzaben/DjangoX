@@ -1,0 +1,38 @@
+body{
+  background-color: #ca7be6;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .snack-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .snack-table .table-heading {
+    font-weight: bold;
+    padding: 8px;
+    background-color:#ca7be6;
+  }
+  
+  .snack-table td {
+    padding: 8px;
+    border: 1px solid #1da211;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid  #1da211;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  a:hover {
+    background-color:  #54e147;
+  }
+  
